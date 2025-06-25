@@ -1,0 +1,14 @@
+# Ignore all node_modules in any subfolder
+**/node_modules
+
+# Ignore files in backend
+backend/.env
+
+# React/Vite build
+**/dist
+**/build
+
+# IDE та редактори
+.vscode/*
+.idea
+.DS_Store
